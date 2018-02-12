@@ -1,19 +1,25 @@
-import java.util.Scanner;
+/*check even odd */
 
-public class Solution {
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        String s = scan.nextLine(); 
-        
-        // Write your code here.
-
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
-       
-    }
+class IfElse
+{
+	public static void main(Strings args[])
+	{
+		int num;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number:");
+		num = sc.nextInt();
+		
+		if(num%==2)
+		{
+			System.out.print("this number is even.");
+		}
+		
+		else
+		{
+			System.out.print("this number is odd");
+		}	
+		
+		sc.close();
+		
+	}
 }
