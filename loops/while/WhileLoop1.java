@@ -5,10 +5,12 @@ class WhileLoop1
 		int i = 200;
 		int j = 400;
 		
-		while(i++<j--)
+		while(i<j)
 		{
 			System.out.println(i+"++++"+j);
+			j--;
+			i++;
 		}
-		system.out.println("End of program !!!!");
+		System.out.println("End of program !!!!");
 	}
 }
