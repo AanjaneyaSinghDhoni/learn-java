@@ -15,7 +15,7 @@ class StringtoChar
 		char c[] = d.Sta("Aanjaneya");
 		for(char a:c)
 		{
-			System.out.print(" "+a);
+			System.out.print (" "+a);
 		}
 		
 	}
